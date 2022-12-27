@@ -4,13 +4,13 @@
 
 lorem ipsum
 
-```Clojure
+```clojure
 
 (defn my-function [a b]
     (str "–> " a b))    
 ```
 
-```Python
+```python
 def my_function(a, b):
     pass
 ```
