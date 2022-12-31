@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-12-31T02:04:59-03:00</updated><id>/feed.xml</id><title type="html">zanfranceschi</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Meu teste com Jekyll</title><link href="/teste/2022/12/30/hello-world.html" rel="alternate" type="text/html" title="Meu teste com Jekyll" /><published>2022-12-30T14:00:31-03:00</published><updated>2022-12-30T14:00:31-03:00</updated><id>/teste/2022/12/30/hello-world</id><content type="html" xml:base="/teste/2022/12/30/hello-world.html">&lt;h1 id=&quot;zanfranceschi&quot;&gt;zanfranceschi&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-12-31T13:21:43-03:00</updated><id>/feed.xml</id><title type="html">zanfranceschi</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Meu teste com Jekyll</title><link href="/teste/2022/12/30/hello-world.html" rel="alternate" type="text/html" title="Meu teste com Jekyll" /><published>2022-12-30T14:00:31-03:00</published><updated>2022-12-30T14:00:31-03:00</updated><id>/teste/2022/12/30/hello-world</id><content type="html" xml:base="/teste/2022/12/30/hello-world.html">&lt;h1 id=&quot;zanfranceschi&quot;&gt;zanfranceschi&lt;/h1&gt;
 
 &lt;h2 id=&quot;teste-de-página&quot;&gt;teste de página&lt;/h2&gt;
 
@@ -143,7 +143,91 @@ sequenceDiagram
 
 &lt;p&gt;cc @sseraphini&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kv5w5qja3yd511cz2a91.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="desafios" /><category term="desafio" /><summary type="html">Conteúdo original em https://twitter.com/zanfranceschi/status/1605325189075865600</summary></entry><entry><title type="html">[Desafio] - Desenhar uma Solução de Lançamentos Financeiros a Partir de Requisitos</title><link href="/desafios/2022/12/11/solucao-lancamentos-financeiros.html" rel="alternate" type="text/html" title="[Desafio] - Desenhar uma Solução de Lançamentos Financeiros a Partir de Requisitos" /><published>2022-12-11T00:00:00-03:00</published><updated>2022-12-11T00:00:00-03:00</updated><id>/desafios/2022/12/11/solucao-lancamentos-financeiros</id><content type="html" xml:base="/desafios/2022/12/11/solucao-lancamentos-financeiros.html">&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kv5w5qja3yd511cz2a91.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="desafios" /><category term="desafio" /><summary type="html">Conteúdo original em https://twitter.com/zanfranceschi/status/1605325189075865600</summary></entry><entry><title type="html">[Conceito] - A Mudança da Natureza de Sistemas em Grande Escala</title><link href="/conceitos/2022/12/19/conceito-a-mudanca-da-natureza-de-sistemas-em-grande-escala.html" rel="alternate" type="text/html" title="[Conceito] - A Mudança da Natureza de Sistemas em Grande Escala" /><published>2022-12-19T00:00:00-03:00</published><updated>2022-12-19T00:00:00-03:00</updated><id>/conceitos/2022/12/19/conceito-a-mudanca-da-natureza-de-sistemas-em-grande-escala</id><content type="html" xml:base="/conceitos/2022/12/19/conceito-a-mudanca-da-natureza-de-sistemas-em-grande-escala.html">&lt;blockquote&gt;
+  &lt;p&gt;Conteúdo original em &lt;a href=&quot;https://twitter.com/zanfranceschi/status/1604825135814279168&quot;&gt;https://twitter.com/zanfranceschi/status/1604825135814279168&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Ei dev,&lt;/p&gt;
+
+&lt;p&gt;Esses dias, nosso amigo @coproduto falou sobre problemas de escalabilidade pra quando as coisas mudam de grandeza. Isso me inspirou a fazer essa thread que é uma introdução básica sobre o tema. Cola aí, que é um assunto legal!&lt;/p&gt;
+
+&lt;p&gt;cc @sseraphini&lt;/p&gt;
+
+&lt;p&gt;↓&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bpvkqtiikcnzd64zp53z.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Uma “grandeza superior” ou “grande escala” são termos subjetivos. Então, a gente precisa primeiro entrar num consenso sobre o que é isso.&lt;/p&gt;
+
+&lt;p&gt;Pra essa thread, vamos definir grande escala como algo que não cabe dentro dos limites mais comuns.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Vou começar com um exemplo bem simplista.&lt;/p&gt;
+
+&lt;p&gt;Lembra da época em que os processadores eram de 32 bits e o máximo de memória RAM que a gente conseguia usar eram 4GB? 🥲&lt;/p&gt;
+
+&lt;p&gt;4GB é um exemplo de limite.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Agora imagina que você desenvolveu uma aplicação que faz algum processamento dentro de um servidor de 32 bits com 4GB de RAM. Essa aplicação usa no máximo uns 2 dos 4GB disponíveis de RAM. Mas aí, vem um requisito novo que vai exigir uns 20GB de RAM pro processamento. E agora?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4pxyj7l1jpxck1h6rryw.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Como você atingiu um limite, você precisará fazer alguma coisa diferente – ou seja, mudar a natureza da solução do seu problema. Usar um servidor de 64 bits, computação distribuída, processar partes menores por vez, ou outra abordagem.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Outro exemplo talvez um pouco mais próximo do nosso dia a dia. Você tem um número de clientes e demanda computacional em que um banco de dados relacional atende adequadamente às requisições de escrita ao passo das requisições HTTP.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hpj0xg51uugdph2q6n70.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Agora, vamos supor que a demanda aumente ao ponto de ultrapassar a capacidade de escritas síncronas necessárias no banco de dados. A natureza da solução precisa mudar, pois ultrapassamos um limite. Talvez alguma coisa como o exemplo do fluxo seguinte seja necessária.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dekws3ogq3iji7kyoqs2.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;É um desafio muito interessante trabalhar num projeto/produto que muda de escala. Geralmente, a mudança é gradual e a gente vai mudando aos poucos a natureza da solução.&lt;/p&gt;
+
+&lt;p&gt;Mudanças bruscas de escala são mais raras, mas podem acontecer.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Existem escalas e escalas, né? Os dois exemplos que dei não testam limites, por exemplos, de infraestrutura básica como redes, armazenamentos, eletricidade, temperatura, etc.&lt;/p&gt;
+
+&lt;p&gt;O que provedores cloud hoje em dia nos oferecem, geralmente é mais do que suficiente pra casos comuns.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Agora tenta imaginar a busca do Google. São bilhões de buscas por dia no mundo todo! Não me surpreenderia se me dissessem que têm requisitos especiais de resfriamento, eletricidade, etc. Deve ser um negócio de outra grandeza que a maioria de nós nem imagina.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Quando o nosso Polvo Sensato 🐙♥️ diz que a natureza das coisas muda em grande escala, é sobre as mudanças necessárias pra superar esses limites que estamos falando.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Bom, é isso o que tinha pra falar sobre grandeza de problemas, escalas, etc. Obrigado demais se você leu até aqui!&lt;/p&gt;
+
+&lt;p&gt;Um beijo pra quem é de beijo, um abraço pra quem é de abraço. 💕&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Ah, e tá aqui o post do @coproduto que me inspirou a fazer essa thread👇&lt;/p&gt;
+
+&lt;p&gt;https://twitter.com/coproduto/status/1601968298903552001&lt;/p&gt;
+
+&lt;p&gt;Brigado, Polvo.&lt;/p&gt;</content><author><name></name></author><category term="conceitos" /><category term="conceito" /><summary type="html">Conteúdo original em https://twitter.com/zanfranceschi/status/1604825135814279168</summary></entry><entry><title type="html">[Desafio] - Desenhar uma Solução de Lançamentos Financeiros a Partir de Requisitos</title><link href="/desafios/2022/12/11/solucao-lancamentos-financeiros.html" rel="alternate" type="text/html" title="[Desafio] - Desenhar uma Solução de Lançamentos Financeiros a Partir de Requisitos" /><published>2022-12-11T00:00:00-03:00</published><updated>2022-12-11T00:00:00-03:00</updated><id>/desafios/2022/12/11/solucao-lancamentos-financeiros</id><content type="html" xml:base="/desafios/2022/12/11/solucao-lancamentos-financeiros.html">&lt;blockquote&gt;
   &lt;p&gt;Conteúdo original em &lt;a href=&quot;https://twitter.com/zanfranceschi/status/1601954872168837120&quot;&gt;https://twitter.com/zanfranceschi/status/1601954872168837120&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -241,4 +325,62 @@ sequenceDiagram
 
 &lt;p&gt;Queria agradecer de coração se você leu até aqui e/ou me acompanha dando essa moral, sabe? É por você e pelo compartilhamento de experiências que escrevo esse tipo de conteúdo.  ♥️&lt;/p&gt;
 
-&lt;p&gt;Muito obrigado! 🥹&lt;/p&gt;</content><author><name></name></author><category term="desafios" /><category term="desafio" /><summary type="html">Conteúdo original em https://twitter.com/zanfranceschi/status/1601954872168837120</summary></entry></feed>
+&lt;p&gt;Muito obrigado! 🥹&lt;/p&gt;</content><author><name></name></author><category term="desafios" /><category term="desafio" /><summary type="html">Conteúdo original em https://twitter.com/zanfranceschi/status/1601954872168837120</summary></entry><entry><title type="html">[Conceito] - Relógios Monotônicos</title><link href="/conceitos/2022/11/13/conceito-relogios-monotonicos.html" rel="alternate" type="text/html" title="[Conceito] - Relógios Monotônicos" /><published>2022-11-13T00:00:00-03:00</published><updated>2022-11-13T00:00:00-03:00</updated><id>/conceitos/2022/11/13/conceito-relogios-monotonicos</id><content type="html" xml:base="/conceitos/2022/11/13/conceito-relogios-monotonicos.html">&lt;blockquote&gt;
+  &lt;p&gt;Conteúdo original em &lt;a href=&quot;https://twitter.com/zanfranceschi/status/1591969680582844417&quot;&gt;https://twitter.com/zanfranceschi/status/1591969680582844417&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Ei dev,&lt;/p&gt;
+
+&lt;p&gt;Hoje é domingo a noite e tá meio monótono aqui pra mim. Aliás, vamos falar de monotonia? Mais especificamente de relógio monotônico.&lt;/p&gt;
+
+&lt;p&gt;cc @sseraphini&lt;/p&gt;
+
+&lt;p&gt;↓&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0092t2hun4p7h84kxcdh.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;A definição de um relógio monotônico é um relógio que sempre vai pra frente, nunca pra trás. Ele não funciona como um relógio para saber as horas ─ funciona como um cronômetro.&lt;/p&gt;
+
+&lt;p&gt;“Hein? Relógios que vão pra trás?!”. Estranho, né? Te explico.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Para os relógios “normais”, computadores possuem um oscilador de cristal que mantém uma frequência bem precisa pra deixar um relógio no tempo correto. Mas esse mecanismo não é perfeito e o tempo vai variando e fazendo com que os relógios se desregulem às vezes.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Pra minimizar essa imprecisão, existe o protocolo NTP (Network Time Protocol) que é usado pra ajustar os relógios dos computadores, por exemplo.&lt;/p&gt;
+
+&lt;p&gt;Por causa desses ajustes, a gente pode considerar que os relógios podem (e vão) voltar no passado ou dar saltos pro futuro.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Esse é um dos motivos de você já ter ouvido pra não usar esse relógio “normal” para cronometrar tempos de processamento.&lt;/p&gt;
+
+&lt;p&gt;Esse é um exemplo de código com uma medição que pode ser bem imprecisa porque pode ocorrer um ajuste do relógio no meio da execução da função cronometrada.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lanwt4b78vts3jqxrlkk.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Uma forma mais precisa de medir o tempo de processamento seria usar um relógio monotônico.&lt;/p&gt;
+
+&lt;p&gt;O exemplo aqui usa uma função do Python que oferece esse tipo de relógio (cronômetro). Aqui, não existe o risco de saltos de tempo e a medição é bem precisa.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fqglkhqbab4jpr5eeyuj.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Relógios, timestamps, etc. são super complexos na verdade, principalmente em sistemas distribuídos. Imagina regular um relógio via NTP numa rede com latência variável, congestionamento, etc.&lt;/p&gt;
+
+&lt;p&gt;Imagina ainda ordenar eventos de máquinas diferentes com base em timestamps ─ loucura!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Bem, era isso que tinha pra falar sobre relógios monotônicos e não monotônicos ─ espero que tenha gostado.&lt;/p&gt;
+
+&lt;p&gt;Obrigado por ter lido até aqui e pela moral! 💕&lt;/p&gt;</content><author><name></name></author><category term="conceitos" /><category term="conceito" /><summary type="html">Conteúdo original em https://twitter.com/zanfranceschi/status/1591969680582844417</summary></entry></feed>
