@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-12-31T01:51:37-03:00</updated><id>/feed.xml</id><title type="html">zanfranceschi</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Meu teste com Jekyll</title><link href="/teste/2022/12/30/hello-world.html" rel="alternate" type="text/html" title="Meu teste com Jekyll" /><published>2022-12-30T14:00:31-03:00</published><updated>2022-12-30T14:00:31-03:00</updated><id>/teste/2022/12/30/hello-world</id><content type="html" xml:base="/teste/2022/12/30/hello-world.html">&lt;h1 id=&quot;zanfranceschi&quot;&gt;zanfranceschi&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-12-31T01:56:16-03:00</updated><id>/feed.xml</id><title type="html">zanfranceschi</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Meu teste com Jekyll</title><link href="/teste/2022/12/30/hello-world.html" rel="alternate" type="text/html" title="Meu teste com Jekyll" /><published>2022-12-30T14:00:31-03:00</published><updated>2022-12-30T14:00:31-03:00</updated><id>/teste/2022/12/30/hello-world</id><content type="html" xml:base="/teste/2022/12/30/hello-world.html">&lt;h1 id=&quot;zanfranceschi&quot;&gt;zanfranceschi&lt;/h1&gt;
 
 &lt;h2 id=&quot;teste-de-página&quot;&gt;teste de página&lt;/h2&gt;
 
@@ -49,4 +49,84 @@ sequenceDiagram
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">[Conceito/Desafio] - Micro-Batching ou Processamento em Micro-Lotes</title><link href="/conceitos/2022/12/22/micro-batching.html" rel="alternate" type="text/html" title="[Conceito/Desafio] - Micro-Batching ou Processamento em Micro-Lotes" /><published>2022-12-22T00:00:00-03:00</published><updated>2022-12-22T00:00:00-03:00</updated><id>/conceitos/2022/12/22/micro-batching</id><content type="html" xml:base="/conceitos/2022/12/22/micro-batching.html">&lt;blockquote&gt;
+  &lt;p&gt;Conteúdo original em https://twitter.com/zanfranceschi/status/1605916558433193984&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Ei dev,&lt;/p&gt;
+
+&lt;p&gt;Já ouviu falar sobre MICRO-BATCHING (processamento em micro-lotes)? Se ainda não, cola mais pra você levar esse assunto pra ceia de Natal e impressionar a família!&lt;/p&gt;
+
+&lt;p&gt;Tem até um desafio no final. 🥲&lt;/p&gt;
+
+&lt;p&gt;cc @sseraphini&lt;/p&gt;
+
+&lt;p&gt;↓&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k81uleio1jpmlsdeokyv.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Antes de explicar micro-batching, precisamos entender dois conceitos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Processamento batch (em lote)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Processamento contínuo&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Processamento em lote ou batch significa processar múltiplos registros de uma só vez. Antigamente, havia muitas restrições para comunicação entre computadores. Então, basicamente o pessoal juntava um bolo de informações e mandava processar numa tacada só.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Já o processamento contínuo é uma técnica que processa dados assim que estiverem disponíveis ─ muito usada em arquiteturas orientadas a eventos. Filas e tópicos (no caso do Kafka) são ferramentas bem comuns pra isso. O dado pintou lá, pá! Já processa na hora, no ato!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Bom, agora sobre micro-batching. Nada mais é do que um processamento de lotes bem menores e com intervalos também bem menores do que os tradicionais batches.&lt;/p&gt;
+
+&lt;p&gt;É justo interpretar micro-batching como um meio termo entre/mistura de processamento contínuo e em lote.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;O intervalo de processamento e o tamanho do lote podem variar de acordo com a natureza do problema. Inclusive, tamanho e/ou intervalo geralmente são os gatilhos para que se inicie o processamento:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Processar de tanto em tanto tempo;&lt;/li&gt;
+  &lt;li&gt;Processar a cada X volume de dados.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Pra usar micro-batching você precisa considerar principalmente o quão tardiamente seus dados podem ser processados (segundos, horas?) e a eficiência computacional do processamento pra tal tamanho/intervalo (custos, uso de rede, etc.). Dependendo do cenário, pode não valer a pena.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Alguns cenários que PODEM se beneficiar dessa técnica:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ferramentas de analytics;&lt;/li&gt;
+  &lt;li&gt;Ingestão/sincronização de bases;&lt;/li&gt;
+  &lt;li&gt;IoT;&lt;/li&gt;
+  &lt;li&gt;Processamento entre processos;&lt;/li&gt;
+  &lt;li&gt;Etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Bom, agora que você já deve ter pelo menos uma intuição sobre o assunto, talvez valha a pena implementar esse desenho como desafio/prática.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cyijntkh9iqzwubxkkx2.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Era isso que tinha pra falar sobre micro-batching. Como sempre, muito obrigado por ter lido até aqui! ♥️&lt;/p&gt;
+
+&lt;p&gt;Se curtiu, dá um like, retuíta o primeiro tweet da thread, comenta, compartilha, etc.&lt;/p&gt;</content><author><name></name></author><category term="conceitos" /><category term="desafio" /><category term="conceito" /><summary type="html">Conteúdo original em https://twitter.com/zanfranceschi/status/1605916558433193984</summary></entry></feed>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>[Conceito/Desafio] - Micro-Batching ou Processamento em Micro-Lotes | zanfranceschi</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="[Conceito/Desafio] - Micro-Batching ou Processamento em Micro-Lotes" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Conteúdo original em https://twitter.com/zanfranceschi/status/1605916558433193984" />
+<meta property="og:description" content="Conteúdo original em https://twitter.com/zanfranceschi/status/1605916558433193984" />
+<link rel="canonical" href="/conceitos/2022/12/22/micro-batching.html" />
+<meta property="og:url" content="/conceitos/2022/12/22/micro-batching.html" />
+<meta property="og:site_name" content="zanfranceschi" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-12-22T00:00:00-03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="[Conceito/Desafio] - Micro-Batching ou Processamento em Micro-Lotes" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-12-22T00:00:00-03:00","datePublished":"2022-12-22T00:00:00-03:00","description":"Conteúdo original em https://twitter.com/zanfranceschi/status/1605916558433193984","headline":"[Conceito/Desafio] - Micro-Batching ou Processamento em Micro-Lotes","mainEntityOfPage":{"@type":"WebPage","@id":"/conceitos/2022/12/22/micro-batching.html"},"url":"/conceitos/2022/12/22/micro-batching.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="zanfranceschi" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">zanfranceschi</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/contato/">Contato</a><a class="page-link" href="/sobre/">Sobre</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">[Conceito/Desafio] - Micro-Batching ou Processamento em Micro-Lotes</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2022-12-22T00:00:00-03:00" itemprop="datePublished">Dec 22, 2022
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <blockquote>
+  <p>Conteúdo original em https://twitter.com/zanfranceschi/status/1605916558433193984</p>
+</blockquote>
+
+<hr />
+
+<p>Ei dev,</p>
+
+<p>Já ouviu falar sobre MICRO-BATCHING (processamento em micro-lotes)? Se ainda não, cola mais pra você levar esse assunto pra ceia de Natal e impressionar a família!</p>
+
+<p>Tem até um desafio no final. 🥲</p>
+
+<p>cc @sseraphini</p>
+
+<p>↓</p>
+
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k81uleio1jpmlsdeokyv.png" alt="Image" /></p>
+
+<hr />
+
+<p>Antes de explicar micro-batching, precisamos entender dois conceitos:</p>
+
+<ul>
+  <li>
+    <p>Processamento batch (em lote)</p>
+  </li>
+  <li>
+    <p>Processamento contínuo</p>
+  </li>
+</ul>
+
+<hr />
+
+<p>Processamento em lote ou batch significa processar múltiplos registros de uma só vez. Antigamente, havia muitas restrições para comunicação entre computadores. Então, basicamente o pessoal juntava um bolo de informações e mandava processar numa tacada só.</p>
+
+<hr />
+
+<p>Já o processamento contínuo é uma técnica que processa dados assim que estiverem disponíveis ─ muito usada em arquiteturas orientadas a eventos. Filas e tópicos (no caso do Kafka) são ferramentas bem comuns pra isso. O dado pintou lá, pá! Já processa na hora, no ato!</p>
+
+<hr />
+
+<p>Bom, agora sobre micro-batching. Nada mais é do que um processamento de lotes bem menores e com intervalos também bem menores do que os tradicionais batches.</p>
+
+<p>É justo interpretar micro-batching como um meio termo entre/mistura de processamento contínuo e em lote.</p>
+
+<hr />
+
+<p>O intervalo de processamento e o tamanho do lote podem variar de acordo com a natureza do problema. Inclusive, tamanho e/ou intervalo geralmente são os gatilhos para que se inicie o processamento:</p>
+
+<ul>
+  <li>Processar de tanto em tanto tempo;</li>
+  <li>Processar a cada X volume de dados.</li>
+</ul>
+
+<hr />
+
+<p>Pra usar micro-batching você precisa considerar principalmente o quão tardiamente seus dados podem ser processados (segundos, horas?) e a eficiência computacional do processamento pra tal tamanho/intervalo (custos, uso de rede, etc.). Dependendo do cenário, pode não valer a pena.</p>
+
+<hr />
+
+<p>Alguns cenários que PODEM se beneficiar dessa técnica:</p>
+
+<ul>
+  <li>Ferramentas de analytics;</li>
+  <li>Ingestão/sincronização de bases;</li>
+  <li>IoT;</li>
+  <li>Processamento entre processos;</li>
+  <li>Etc.</li>
+</ul>
+
+<hr />
+
+<p>Bom, agora que você já deve ter pelo menos uma intuição sobre o assunto, talvez valha a pena implementar esse desenho como desafio/prática.</p>
+
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cyijntkh9iqzwubxkkx2.png" alt="Image" /></p>
+
+<hr />
+
+<p>Era isso que tinha pra falar sobre micro-batching. Como sempre, muito obrigado por ter lido até aqui! ♥️</p>
+
+<p>Se curtiu, dá um like, retuíta o primeiro tweet da thread, comenta, compartilha, etc.</p>
+
+  </div><a class="u-url" href="/conceitos/2022/12/22/micro-batching.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">zanfranceschi</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">zanfranceschi</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/zanfranceschi"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">zanfranceschi</span></a></li><li><a href="https://www.twitter.com/zanfranceschi"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">zanfranceschi</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
