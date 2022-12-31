@@ -34,7 +34,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-mermaid
-  - jekyll-paginate
+  #- jekyll-paginate
 
 paginate: 1
 
