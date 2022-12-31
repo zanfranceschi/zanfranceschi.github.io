@@ -6,7 +6,7 @@ categories: conceitos
 tags: desafio conceito
 ---
 
-> Conteúdo original em https://twitter.com/zanfranceschi/status/1605916558433193984
+> Conteúdo original em [https://twitter.com/zanfranceschi/status/1605916558433193984](https://twitter.com/zanfranceschi/status/1605916558433193984)
 
 ---
 
