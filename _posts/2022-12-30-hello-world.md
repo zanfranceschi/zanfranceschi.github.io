@@ -2,7 +2,7 @@
 layout: post
 title:  "Meu teste com Jekyll"
 date:   2022-12-30 14:00:31 -0300
-categories: desafio conceito "sistemas distribuídos"
+categories: teste
 tags: desafio conceito
 ---
 
