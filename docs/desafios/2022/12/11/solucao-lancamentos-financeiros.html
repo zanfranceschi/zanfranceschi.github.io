@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>[Desafio] - Desenhar uma Solução de Lançamentos Financeiros a Partir de Requisitos | zanfranceschi</title>
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="[Desafio] - Desenhar uma Solução de Lançamentos Financeiros a Partir de Requisitos" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Conteúdo original em https://twitter.com/zanfranceschi/status/1601954872168837120" />
+<meta property="og:description" content="Conteúdo original em https://twitter.com/zanfranceschi/status/1601954872168837120" />
+<link rel="canonical" href="/desafios/2022/12/11/solucao-lancamentos-financeiros.html" />
+<meta property="og:url" content="/desafios/2022/12/11/solucao-lancamentos-financeiros.html" />
+<meta property="og:site_name" content="zanfranceschi" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-12-11T00:00:00-03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="[Desafio] - Desenhar uma Solução de Lançamentos Financeiros a Partir de Requisitos" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-12-11T00:00:00-03:00","datePublished":"2022-12-11T00:00:00-03:00","description":"Conteúdo original em https://twitter.com/zanfranceschi/status/1601954872168837120","headline":"[Desafio] - Desenhar uma Solução de Lançamentos Financeiros a Partir de Requisitos","mainEntityOfPage":{"@type":"WebPage","@id":"/desafios/2022/12/11/solucao-lancamentos-financeiros.html"},"url":"/desafios/2022/12/11/solucao-lancamentos-financeiros.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="zanfranceschi" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">zanfranceschi</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/contato/">Contato</a><a class="page-link" href="/sobre/">Sobre</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">[Desafio] - Desenhar uma Solução de Lançamentos Financeiros a Partir de Requisitos</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2022-12-11T00:00:00-03:00" itemprop="datePublished">Dec 11, 2022
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <blockquote>
+  <p>Conteúdo original em <a href="https://twitter.com/zanfranceschi/status/1601954872168837120">https://twitter.com/zanfranceschi/status/1601954872168837120</a></p>
+</blockquote>
+
+<hr />
+
+<p>Ei dev, achou que minhas threads tinham ido de base, né? 🤭</p>
+
+<p>Pra você que cansou de fazer CRUD e tá sem inspiração pra estudar/praticar, vou propor um desafio em que só descrevo os requisitos e restrições sobre um assunto conhecido – lançamentos financeiros.</p>
+
+<p>cc @sseraphini</p>
+
+<p>↓</p>
+
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0u1pzswnlroa6cgx8q3g.png" alt="Image" /></p>
+
+<hr />
+
+<p>Esse tipo de situação é comum pra quem trabalha com desenvolvimento. O cliente quer uma aplicação, fala como algumas coisas têm que ser e deixa outras em aberto. É um cenário realista e legal pra quem gosta de arquitetura e/ou quer alguma coisa diferente pra praticar.</p>
+
+<hr />
+
+<p>DISCLAIMER</p>
+
+<p>Esse é um desafio um pouco mais avançando. Então se vc for iniciante não se preocupe caso não entenda alguma coisa. Se quiser mesmo assim fazer e tiver alguma dúvida, é só perguntar aqui! Só gente legal lê minhas threads e alguém vai te ajudar! 💕</p>
+
+<hr />
+
+<p>Vamos então começar com o que a nossa solução deverá entregar. É basicamente uma API mais ou menos como mostra a imagem.</p>
+
+<p>São dois endpoints, um para o saldo atual e outro para mostrar os lançamentos.</p>
+
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vo96ix16m05kmu8clbqg.png" alt="Image" /></p>
+
+<hr />
+
+<p>Bora pros requisitos.</p>
+
+<p>- Essa API deve ser otimizada pra leitura. Ela deve apenas ler o saldo pronto de um banco de dados sem precisar computá-lo a cada leitura.</p>
+
+<p>- Ela tem que limitar a leitura dos lançamentos – uma paginação e filtros por período são necessários.</p>
+
+<hr />
+
+<p>- Apenas lançamentos de até 90 dias ficam disponíveis no endpoint de lançamentos – nada antes disso.</p>
+
+<p>- Para lançamentos anteriores a 90 dias, tem que haver um endpoint para fazer a solicitação e então a aplicação gerar um arquivo para ficar disponível pra download. +</p>
+
+<hr />
+
+<p>Então, na verdade, precisamos de mais alguns endpoints: solicitação de lançamentos anteriores a 90 dias; consulta dessas solicitações; e download desses lançamentos antigos. Ah, tem que haver um expurgo desses arquivos também.  (Esteja preparada/o para solicitações de mudanças!)</p>
+
+<hr />
+
+<p>- Para alimentar o banco da API, os lançamentos são disponibilizados de duas formas:</p>
+
+<p>1- Um arquivo gerado diariamente; e</p>
+
+<p>2- Uma fila onde, em tempo quase real, os lançamentos são publicados.</p>
+
+<p>Aqui, a abordagem com filas é mais desejada do que a leitura de arquivos, tá?</p>
+
+<hr />
+
+<p>- O processamento (tanto das mensagens nas filas ou dos arquivos) precisa ser idempotentes! Ou seja, se a mesma mensagem ou arquivo for processado duas ou mais vezes, o saldo e os lançamentos precisam permanecer corretos.</p>
+
+<hr />
+
+<p>- Inicialmente, existe uma restrição de runtime em que a primeira versão da solução precisa ter todos os componentes compartilhando o mesmo processo (API, daemons, consumidores, etc) – exceto o banco.</p>
+
+<hr />
+
+<p>- 4 meses após o lançamento da primeira versão, os componentes devem ser executados em processos distintos – runtimes dedicados –, inclusive com execuções individuais de CI/CD. E essa mudança de um runtime compartilhado para runtimes dedicados precisa ser a mais rápida possível!</p>
+
+<hr />
+
+<p>- A solução deve funcionar adequadamente com distribuição de carga entre vários nós/servidores. Ou seja, deve escalar horizontalmente, tratar condições de corrida e possuir o mínimo possível de estado nos nós que não sejam os de banco de dados.</p>
+
+<p>- Use o banco de dados que quiser.</p>
+
+<hr />
+
+<p>- Use a lang/stack que quiser.</p>
+
+<p>- Não negligencie a observabilidade: métricas, logs, e talvez rastreabilidade.</p>
+
+<hr />
+
+<p>- Lembra dos até 90 dias de lançamentos? Tudo que for anterior a isso, mova do banco onde estão os lançamentos para um armazenamento mais barato. E tudo que for anterior a 3 anos, expurgue – exclua definitivamente.</p>
+
+<hr />
+
+<p>É isso, gente. Eu poderia ficar horas e horas inventando requisitos, mas a thread ficaria enorme. De toda forma, acredito que tenha conseguido inventar um desafio com requisitos realistas pra vc poder estudar/praticar/pensar. E claro!, adicione seus requisitos também, se quiser.</p>
+
+<hr />
+
+<p>Queria agradecer de coração se você leu até aqui e/ou me acompanha dando essa moral, sabe? É por você e pelo compartilhamento de experiências que escrevo esse tipo de conteúdo.  ♥️</p>
+
+<p>Muito obrigado! 🥹</p>
+
+
+  </div><a class="u-url" href="/desafios/2022/12/11/solucao-lancamentos-financeiros.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">zanfranceschi</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">zanfranceschi</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/zanfranceschi"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">zanfranceschi</span></a></li><li><a href="https://www.twitter.com/zanfranceschi"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">zanfranceschi</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-12-31T02:01:00-03:00</updated><id>/feed.xml</id><title type="html">zanfranceschi</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Meu teste com Jekyll</title><link href="/teste/2022/12/30/hello-world.html" rel="alternate" type="text/html" title="Meu teste com Jekyll" /><published>2022-12-30T14:00:31-03:00</published><updated>2022-12-30T14:00:31-03:00</updated><id>/teste/2022/12/30/hello-world</id><content type="html" xml:base="/teste/2022/12/30/hello-world.html">&lt;h1 id=&quot;zanfranceschi&quot;&gt;zanfranceschi&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-12-31T02:04:59-03:00</updated><id>/feed.xml</id><title type="html">zanfranceschi</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Meu teste com Jekyll</title><link href="/teste/2022/12/30/hello-world.html" rel="alternate" type="text/html" title="Meu teste com Jekyll" /><published>2022-12-30T14:00:31-03:00</published><updated>2022-12-30T14:00:31-03:00</updated><id>/teste/2022/12/30/hello-world</id><content type="html" xml:base="/teste/2022/12/30/hello-world.html">&lt;h1 id=&quot;zanfranceschi&quot;&gt;zanfranceschi&lt;/h1&gt;
 
 &lt;h2 id=&quot;teste-de-página&quot;&gt;teste de página&lt;/h2&gt;
 
@@ -143,4 +143,102 @@ sequenceDiagram
 
 &lt;p&gt;cc @sseraphini&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kv5w5qja3yd511cz2a91.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="desafios" /><category term="desafio" /><summary type="html">Conteúdo original em https://twitter.com/zanfranceschi/status/1605325189075865600</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kv5w5qja3yd511cz2a91.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="desafios" /><category term="desafio" /><summary type="html">Conteúdo original em https://twitter.com/zanfranceschi/status/1605325189075865600</summary></entry><entry><title type="html">[Desafio] - Desenhar uma Solução de Lançamentos Financeiros a Partir de Requisitos</title><link href="/desafios/2022/12/11/solucao-lancamentos-financeiros.html" rel="alternate" type="text/html" title="[Desafio] - Desenhar uma Solução de Lançamentos Financeiros a Partir de Requisitos" /><published>2022-12-11T00:00:00-03:00</published><updated>2022-12-11T00:00:00-03:00</updated><id>/desafios/2022/12/11/solucao-lancamentos-financeiros</id><content type="html" xml:base="/desafios/2022/12/11/solucao-lancamentos-financeiros.html">&lt;blockquote&gt;
+  &lt;p&gt;Conteúdo original em &lt;a href=&quot;https://twitter.com/zanfranceschi/status/1601954872168837120&quot;&gt;https://twitter.com/zanfranceschi/status/1601954872168837120&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Ei dev, achou que minhas threads tinham ido de base, né? 🤭&lt;/p&gt;
+
+&lt;p&gt;Pra você que cansou de fazer CRUD e tá sem inspiração pra estudar/praticar, vou propor um desafio em que só descrevo os requisitos e restrições sobre um assunto conhecido – lançamentos financeiros.&lt;/p&gt;
+
+&lt;p&gt;cc @sseraphini&lt;/p&gt;
+
+&lt;p&gt;↓&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0u1pzswnlroa6cgx8q3g.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Esse tipo de situação é comum pra quem trabalha com desenvolvimento. O cliente quer uma aplicação, fala como algumas coisas têm que ser e deixa outras em aberto. É um cenário realista e legal pra quem gosta de arquitetura e/ou quer alguma coisa diferente pra praticar.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;DISCLAIMER&lt;/p&gt;
+
+&lt;p&gt;Esse é um desafio um pouco mais avançando. Então se vc for iniciante não se preocupe caso não entenda alguma coisa. Se quiser mesmo assim fazer e tiver alguma dúvida, é só perguntar aqui! Só gente legal lê minhas threads e alguém vai te ajudar! 💕&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Vamos então começar com o que a nossa solução deverá entregar. É basicamente uma API mais ou menos como mostra a imagem.&lt;/p&gt;
+
+&lt;p&gt;São dois endpoints, um para o saldo atual e outro para mostrar os lançamentos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vo96ix16m05kmu8clbqg.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Bora pros requisitos.&lt;/p&gt;
+
+&lt;p&gt;- Essa API deve ser otimizada pra leitura. Ela deve apenas ler o saldo pronto de um banco de dados sem precisar computá-lo a cada leitura.&lt;/p&gt;
+
+&lt;p&gt;- Ela tem que limitar a leitura dos lançamentos – uma paginação e filtros por período são necessários.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;- Apenas lançamentos de até 90 dias ficam disponíveis no endpoint de lançamentos – nada antes disso.&lt;/p&gt;
+
+&lt;p&gt;- Para lançamentos anteriores a 90 dias, tem que haver um endpoint para fazer a solicitação e então a aplicação gerar um arquivo para ficar disponível pra download. +&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Então, na verdade, precisamos de mais alguns endpoints: solicitação de lançamentos anteriores a 90 dias; consulta dessas solicitações; e download desses lançamentos antigos. Ah, tem que haver um expurgo desses arquivos também.  (Esteja preparada/o para solicitações de mudanças!)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;- Para alimentar o banco da API, os lançamentos são disponibilizados de duas formas:&lt;/p&gt;
+
+&lt;p&gt;1- Um arquivo gerado diariamente; e&lt;/p&gt;
+
+&lt;p&gt;2- Uma fila onde, em tempo quase real, os lançamentos são publicados.&lt;/p&gt;
+
+&lt;p&gt;Aqui, a abordagem com filas é mais desejada do que a leitura de arquivos, tá?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;- O processamento (tanto das mensagens nas filas ou dos arquivos) precisa ser idempotentes! Ou seja, se a mesma mensagem ou arquivo for processado duas ou mais vezes, o saldo e os lançamentos precisam permanecer corretos.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;- Inicialmente, existe uma restrição de runtime em que a primeira versão da solução precisa ter todos os componentes compartilhando o mesmo processo (API, daemons, consumidores, etc) – exceto o banco.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;- 4 meses após o lançamento da primeira versão, os componentes devem ser executados em processos distintos – runtimes dedicados –, inclusive com execuções individuais de CI/CD. E essa mudança de um runtime compartilhado para runtimes dedicados precisa ser a mais rápida possível!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;- A solução deve funcionar adequadamente com distribuição de carga entre vários nós/servidores. Ou seja, deve escalar horizontalmente, tratar condições de corrida e possuir o mínimo possível de estado nos nós que não sejam os de banco de dados.&lt;/p&gt;
+
+&lt;p&gt;- Use o banco de dados que quiser.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;- Use a lang/stack que quiser.&lt;/p&gt;
+
+&lt;p&gt;- Não negligencie a observabilidade: métricas, logs, e talvez rastreabilidade.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;- Lembra dos até 90 dias de lançamentos? Tudo que for anterior a isso, mova do banco onde estão os lançamentos para um armazenamento mais barato. E tudo que for anterior a 3 anos, expurgue – exclua definitivamente.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;É isso, gente. Eu poderia ficar horas e horas inventando requisitos, mas a thread ficaria enorme. De toda forma, acredito que tenha conseguido inventar um desafio com requisitos realistas pra vc poder estudar/praticar/pensar. E claro!, adicione seus requisitos também, se quiser.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Queria agradecer de coração se você leu até aqui e/ou me acompanha dando essa moral, sabe? É por você e pelo compartilhamento de experiências que escrevo esse tipo de conteúdo.  ♥️&lt;/p&gt;
+
+&lt;p&gt;Muito obrigado! 🥹&lt;/p&gt;</content><author><name></name></author><category term="desafios" /><category term="desafio" /><summary type="html">Conteúdo original em https://twitter.com/zanfranceschi/status/1601954872168837120</summary></entry></feed>
